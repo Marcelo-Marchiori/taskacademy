@@ -1,0 +1,201 @@
+
+body{
+
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+
+}
+
+h1{
+    width: 19%;
+    /* font-size: 240%; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1%;
+    margin-top: 1%;
+    text-shadow: 0px 1px 1px rgb(255, 255, 255);
+}
+
+.clique {
+    color: rgb(255, 0, 0);
+    font-size: 60%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    /* text-shadow: 0px 1px 1px rgb(70, 66, 66); */
+}
+
+.full-screen {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-around;
+      
+}
+
+.primeira-divisao {
+    display: flex;
+    justify-content: space-around; 
+}
+
+ .primeira-divisao{
+    display: flex;
+    flex-direction:column;
+}
+.primeira-divisao > .btn:hover {
+    opacity: 1.0;
+}
+
+.primeira-divisao > .btn{
+    
+    background-color: white;
+    margin: 4vw 0vh;
+    width: 15vw;
+    height: 18vh;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 10px 8px 7px black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    font-family: 'Exo', sans-serif;
+    font-size: 150%;
+    cursor: pointer;
+    opacity: 55%;
+    position: relative;
+
+ } 
+
+.segunda-divisao{
+    display: flex;
+    flex-direction:column;
+
+}
+
+.segunda-divisao > .btn:hover {
+    opacity: 1.0;
+}
+
+.segunda-divisao > .btn{
+    background-color: white;
+    margin: 4vw 0vh;
+    width: 15vw;
+    height: 18vh;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 10px 8px 7px black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    font-family: 'Exo', sans-serif;
+    font-size: 150%;
+    cursor: pointer;
+    opacity: 55%;
+    position: relative;
+    animation: mymove 5s normal;
+    animation-timing-function: linear;
+
+}
+
+
+.terceira-divisao > .btn:hover {
+    opacity: 1.0;
+}
+
+.terceira-divisao > .btn{
+    background-color: white;
+    margin: 4vw 0vh;
+    width: 15vw;
+    height: 18vh;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 10px 8px 7px black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    font-family: 'Exo', sans-serif;
+    font-size: 150%;
+    cursor: pointer;
+    opacity: 55%;
+    position: relative;
+    animation: mymove 5s normal;
+    animation-timing-function: linear;
+
+}
+
+.quarta-divisao > .btn:hover {
+    opacity: 1.0;
+}
+
+.quarta-divisao > .btn{
+    background-color: white;
+    margin: 4vw 0vh;
+    width: 15vw;
+    height: 18vh;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 10px 8px 7px black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    font-family: 'Exo', sans-serif;
+    font-size: 150%;
+    cursor: pointer;
+    opacity: 55%;
+    position: relative;
+    animation: mymove 5s normal;
+    animation-timing-function: linear;
+
+}
+
+.quinta-divisao > .btn:hover {
+    opacity: 1.0;
+}
+.quinta-divisao > .btn{
+    background-color: white;
+    margin: 4vw 0vh;
+    width: 15vw;
+    height: 18vh;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 10px 8px 7px black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    font-family: 'Exo', sans-serif;
+    font-size: 150%;
+    cursor: pointer;
+    opacity: 55%;
+    position: relative;
+    animation: mymove 5s normal;
+    animation-timing-function: linear;
+
+}
+
+
+
+@media only screen and (max-width: 1000px){
+    
+
+    .primeira-divisao > .btn{
+        width: 100%;
+    }
+
+    .segunda-divisao > .btn{
+        width: 100%;
+    }
+
+    .terceira-divisao > .btn{
+        width: 100%;
+    }
+    .quarta-divisao > .btn{
+        width: 100%;
+    }
+    .quinta-divisao > .btn{
+        width: 100%;
+    }
+}
